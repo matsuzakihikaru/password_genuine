@@ -1,0 +1,30 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">  
+    <title>画像選択</title> 
+</head>
+
+<body>
+
+    <button id="next" style="height:72px;" type="button" onClick="next()">
+    <center><font size=24>次に進む</font></center>
+    </button>
+    <input type="text" id="name" maxlength=16 size=16 style="height:36px;" placeholder="名前入力欄">
+    <input type="text" id="age" maxlength=6 size=6 style="height:36px;" placeholder="年齢入力欄">
+
+    <select name="gender" id="gender" style="height:24px;">
+    <option value=0>性別選択</option>
+    <option value=1>1(男性)</option>
+    <option value=2>2(女性)</option>
+    <option value=3>3(その他)</option>
+    </select>
+
+    <center>
+    <canvas id="canvas" width="1500" height="1000"></canvas>
+    </center>
+
+    <script src="program/Hack.js" defer></script>
+    <script src="program/Main.js" defer></script>
+
+</body>
+</html>
